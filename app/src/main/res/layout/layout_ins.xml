@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:gravity="top|start"
+        android:hint="#复制链接 下载图片\n\n#复制个人主页网址 下载快拍+主页帖子\n\n#下载的图片和视频可以在系统图库(相册)查看"
+        android:inputType="none"
+        android:lines="4"
+        android:minHeight="150dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingEnd="40dp"
+            android:paddingStart="40dp"
+            android:paddingTop="10dp"
+            android:text="清空"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPaste"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="10dp"
+            android:paddingEnd="40dp"
+            android:paddingStart="40dp"
+            android:paddingTop="10dp"
+            android:text="粘贴"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="下载"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/download_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="用户信息"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/download_stories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="下载快拍"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/download_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="下载主页所有帖子"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+</LinearLayout>

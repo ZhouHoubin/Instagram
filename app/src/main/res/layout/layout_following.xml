@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:gravity="top|start"
+        android:hint="输入自己的 Instagram 账号"
+        android:inputType="none"
+        android:lines="2"
+        android:padding="15dp"
+        android:text="z.houbin"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="检测"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:text="网页登录"
+        android:textColor="@android:color/white" />
+</LinearLayout>

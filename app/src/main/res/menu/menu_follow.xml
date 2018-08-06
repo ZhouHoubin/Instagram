@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_del_single"
+        android:title="一键删除单向关注"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_follow_fans"
+        android:title="一键关注粉丝列表"
+        app:showAsAction="never" />
+</menu>
